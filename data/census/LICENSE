@@ -1,0 +1,20 @@
+License for Census‑Derived Data
+-------------------------------
+
+The datasets in this directory originate from the U.S. Census Bureau’s
+"City and Town Population Totals" (Vintage 2024) and related public
+domain Census publications.
+
+U.S. Census Bureau data is a work of the United States Government and is
+in the public domain under 17 U.S.C. §105. The raw source files may be
+used, modified, and redistributed without restriction.
+
+All processed, cleaned, or transformed versions of Census data contained
+in this directory are released into the public domain under the Creative
+Commons Zero (CC0 1.0) Public Domain Dedication.
+
+You may copy, modify, distribute, and use these processed datasets for
+any purpose, without permission or attribution.
+
+Source data:
+U.S. Census Bureau, Population Division (public domain).

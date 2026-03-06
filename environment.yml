@@ -1,0 +1,20 @@
+name: us-cities
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - graphviz
+  - osmnx
+  - pyarrow
+  - python-snappy
+  - pyrosm
+  - pip
+  - pip:
+    - graphviz
+    - osmnx
+    - pyarrow
+    - python-snappy
+    - pyrosm
+    - qwikidata
+variables:
+  OSMNX_OVERPASS_MAX_AREA: 1000000000000

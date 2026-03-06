@@ -1,0 +1,8 @@
+CENSUS_DATA_FOLDER = "data/census"
+OSM_DATA_FOLDER = "data/osm"
+OSM_RAW_DATA_FOLDER = "data/osm/raw"
+OSM_COUNTIES_DATA_FOLDER = "data/osm/counties"
+OSM_CITIES_DATA_FOLDER = "data/osm/cities"
+RUNNING_STATE_FOLDER = "running_state"
+LOG_FOLDER = "logs"
+GEOFABRIK_FOLDER = "data/geofabrik"

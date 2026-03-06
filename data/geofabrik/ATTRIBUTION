@@ -1,0 +1,23 @@
+Attribution for Geofabrik-Distributed OSM Data
+==============================================
+
+These datasets are based on OpenStreetMap data extracted and packaged by
+Geofabrik GmbH.
+
+Required attribution:
+
+    © OpenStreetMap contributors
+    https://www.openstreetmap.org/copyright
+
+Source of extracts:
+
+    Geofabrik GmbH
+    https://download.geofabrik.de/
+
+License:
+
+    Open Database License (ODbL) 1.0
+    https://opendatacommons.org/licenses/odbl/1-0/
+
+Geofabrik provides the extraction service only; the underlying data is
+created by the OpenStreetMap community and remains under the ODbL 1.0.
