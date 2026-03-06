@@ -3,6 +3,7 @@ cache/
 running_state/
 logs/
 *.osm.pbf
+*.code-workspace
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
