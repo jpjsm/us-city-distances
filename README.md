@@ -21,6 +21,29 @@ The requiered environment file is provided.
 - To activate the virtual environment:
   - `conda activate us-cities`
 
+## Processing Notes
+
+### PBF Files
+
+Here's a summary of [🗂️ Working with Large OSM PBF Files](<docs/Working%20with%20Large%20OSM%20PBF%20Files.md>)
+
+OSM PBF files are heavily compressed. The “Sum of buffer capacities” reported by
+`osmium fileinfo -e` shows the maximum uncompressed size of all internal data
+buffers. This value is often 10–20× larger than the on-disk file size.
+
+Tools that load the entire PBF into memory may require hundreds of gigabytes of
+RAM for a file that is only 10–20 GB on disk. To avoid this, use streaming
+extractors (osmium extract, pyrosm, or OSMnx+pyrosm) and operate on bounding
+boxes or filtered subsets.
+
+The following table shows the expected maximum memory requried to process the
+sample files indicated:
+
+| File | Size (bytes) | Sum of buffer capacities (bytes) |
+| :-- | --: | --: |
+| north-america-260304.osm.pbf | 18,767,642,995 | 235,289,051,136 |
+| us-260304.osm.pbf | 11,752,224,923 | 156,826,468,352 |
+
 ## Licensing
 
 This repository contains two separately licensed components:

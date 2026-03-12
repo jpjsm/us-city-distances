@@ -3,7 +3,7 @@ from config import GEOFABRIK_FOLDER
 
 OSM_PBF_NORTH_AMERICA_FILENAME = "north-america-260304.osm.pbf"
 OSM_PBF_AUSTRALIA_OCEANIA_FILENAME = "australia-oceania-260304.osm.pbf"
-OSM_PBF_CENTRAL_AMERICA_FILENAME = "australia-oceania-260304.osm.pbf"
+OSM_PBF_CENTRAL_AMERICA_FILENAME = "central-america-260304.osm.pbf"
 OSM_PBF_AMERICAN_OCEANIA_FILENAME = "american-oceania-260304.osm.pbf"
 OSM_PBF_US_FILENAME = "us-260304.osm.pbf"
 

@@ -17,5 +17,6 @@ dependencies:
       - python-snappy
       - pyrosm
       - qwikidata
+      - osmium
 variables:
   OSMNX_OVERPASS_MAX_AREA: 1000000000000

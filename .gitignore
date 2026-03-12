@@ -2,7 +2,9 @@
 cache/
 running_state/
 logs/
-*.osm.pbf
+#*.osm.pbf
+*.pbf
+*.pkl
 *.code-workspace
 
 # Byte-compiled / optimized / DLL files

@@ -66,11 +66,12 @@ US_REGIONS = [
 # OSM tags
 # ---------------------------------------------
 
-CITY_EQUIVALENT_TAGS = {
+PLACE_VALUE_TAGS = {
     "place": [
         "city",
         "town",
         "village",
+        # "hamlet",
         # "borough",
         # "suburb",
         # "county",
