@@ -46,7 +46,7 @@ sample files indicated:
 
 ## Licensing
 
-This repository contains two separately licensed components:
+This repository contains, mainly, two separately licensed components:
 
 ### Software (MIT License)
 
@@ -55,11 +55,12 @@ License.
 
 See the root `LICENSE` file.
 
-### OpenStreetMap (OSM) Data (ODbL 1.0)
+### OpenStreetMap (OSM) Data (ODbL 1.0) and derivatives
 
-All datasets in `/data/osm`, including files derived from OpenStreetMap or
-generated from OSM‑derived data, are licensed under the Open Database License
-(ODbL) 1.0.
+All datasets in `/data/osm` or `/data/geofabrik`, including files derived from
+OpenStreetMap or generated from OSM‑derived data (i.e. downloads from Geofabrik
+or derivatives from those downloads), are licensed under the Open Database
+License (ODbL) 1.0.
 
 You must attribute:
     © OpenStreetMap contributors

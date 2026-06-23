@@ -5,6 +5,7 @@ logs/
 #*.osm.pbf
 *.pbf
 *.pkl
+*.parquet
 *.code-workspace
 
 # Byte-compiled / optimized / DLL files
